@@ -1,0 +1,84 @@
+.footSecContainer{
+    height: 80%;
+}
+
+.mainFootSec{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listOptionsFoot{
+    display: none;
+}
+
+.listElementFoot, .listElementFoot a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.listContactFoot{
+    text-shadow: 1px 1px 1px black;
+    color: #f1f1f1;
+}
+
+.listContactFoot h3{
+    margin-top: .5rem;
+    text-align: center;
+
+}
+
+#iconLocationFoot{
+    width: 1.4rem;
+    color: #f1f1f1;
+}
+
+.listContactFoot li{
+    display: flex;
+}
+
+.listContactFoot p{
+    margin-top: 1rem;
+    margin-left: .5rem;
+    color: #f1f1f1;
+    font-size: 1em;
+}
+
+
+.nameCreator h5{
+    text-align: center;
+}
+
+/* Celular */
+@media(min-width:480px) {
+
+    .listOptionsFoot{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .listOptionsFoot h3{
+        text-align: center;
+    }
+    
+    .listOptionsFoot li{
+        padding: .5rem;
+    }
+
+
+}
+
+
+/* Tablets */
+@media(min-width:768px){
+
+}
+
+
+/* Monitor Regular */
+@media(min-width:992px){
+    .mainFootSec{
+        padding-top: 2rem;
+    }
+}

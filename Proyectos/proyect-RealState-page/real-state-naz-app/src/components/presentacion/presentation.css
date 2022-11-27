@@ -1,0 +1,58 @@
+.presentationContainer{
+    margin: 2rem 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.presentationContainer h1{
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+}
+
+.textPresentation{
+    width: 90%;
+    padding: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 5px;
+}
+
+.textPresentation p{
+    text-align: center;
+    font-size: 1em;
+
+}
+
+@media (min-width: 400px){
+    .presentationContainer{
+        margin: 3.5rem 0;
+    }
+
+}
+
+@media (min-width: 700px){
+    .textPresentation p{
+        font-size: 1.3em;
+        width: 80%;
+    }
+
+    .textPresentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    
+}
+
+@media (min-width: 900px){
+    .presentationContainer{
+        margin: 8rem 0;
+    }
+}

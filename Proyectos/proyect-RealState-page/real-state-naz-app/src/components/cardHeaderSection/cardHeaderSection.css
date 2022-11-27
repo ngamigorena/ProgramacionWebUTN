@@ -1,0 +1,46 @@
+.titteleHeroSection{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(1px);
+}
+
+.titteleHeroSection h1{
+    margin: -1rem;
+    padding: 0;
+    padding-top: 3.5rem;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Pequeños dispositivos */
+@media(min-width:320px) {
+    .titteleHeroSection h1{
+        margin: 0;
+    }
+}
+
+/* Celular */
+@media(min-width:480px) {
+    .titteleHeroSection h1{
+        margin: 1rem;
+    }
+}
+
+/* Tablets */
+@media(min-width:800px){
+    .titteleHeroSection h1{
+        margin: 2rem;
+    }
+}
+
+
+/* Monitor Regular */
+@media(min-width:992px){
+    .titteleHeroSection h1{
+        margin: 3rem;
+    }
+}

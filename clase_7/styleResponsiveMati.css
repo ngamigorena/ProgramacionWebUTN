@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+/* Navi */
+.titularDePag{
+    background-color: rgb(2, 2, 82);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.titularDePag h2{
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 2px black;
+}
+
+.menuNavi{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.menuNavi ul li a{
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+}
+
+.menuHorizontalNav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+}
+
+.menuHorizontalNav li a{
+    display: block;
+}
+
+.menuHorizontalNav li{
+    width: 150px;
+}
+.menuVertical{
+    display: none;
+    position: absolute;
+    padding-top: 1rem;
+}
+
+.menuHorizontalNav li:hover .menuVertical{
+    display: block;
+}
+
+.menuVertical a{
+    padding: 10px;
+    background-color: rgba(2, 10, 128, 0.5);
+    text-align: left;
+    width: 150px;
+}
+
+.menuVertical a:hover{
+    background-color: rgb(7, 7, 247);
+}
+
+
+
+
+
+/* Formato de menú de registro */
+.formRegi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3vh;
+}
+
+form h2{
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid darkgray;
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+}
+
+.buttonSubmit input{
+    background-color: rgb(34, 32, 32);
+    color: aliceblue;
+    padding: 5px;
+    border-color: rgb(34, 32, 32);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.buttonSubmit input:hover{
+    background-color: rgb(4, 4, 71);
+}
+
+.miembroYa a{
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pie{
+    font-size: 1rem;
+    color: antiquewhite;
+    text-align: right;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 200px;
+}
+
+
+/* responsive */
+@media(min-width:576px){
+    body{
+        background-color: darksalmon;
+    }
+}
+
+@media(min-width:768px){
+    body{
+        background-color: darkorange;
+    }
+    .titularDePag{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menuNavi{
+        display: flex;
+        align-items: flex-end;
+        width: 65%;
+        
+    }
+     .titularDePag div{
+        width: 30%;
+    }
+    .menuHorizontalNav {
+        flex-direction: row;
+        width: 50%;
+        margin-left: 40%;
+        justify-content: space-between;
+    }
+   
+}

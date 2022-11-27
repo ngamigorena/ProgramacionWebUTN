@@ -1,0 +1,89 @@
+.cardContainer{
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 5px;
+
+}
+
+.cardContainer:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+
+.imageContainer img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cardContent{
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btnCard{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;   
+}
+
+.btnCard button{
+    background-color: rgba(19, 49, 141, 0.95);
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: .4rem;
+    border: 1px solid rgba(19, 49, 141, 0.95);
+    border-radius: 5px;
+}
+
+.btnCard button:hover{
+    background-color: rgba(21, 69, 212, 0.95);
+}
+
+
+/* Pequeños dispositivos */
+@media(min-width:320px) {
+    .cardContainer{
+        width: 90%;
+    }
+}
+
+/* Celular */
+@media(min-width:440px) {
+    .cardContainer{
+        width: 70%;
+    }
+}
+
+/* Tablets - Mia Intermedia */
+@media(min-width:600px){
+    .cardContainer{
+        width: 300px;
+
+    }
+    .imageContainer img{
+        min-height: 150px;
+    }
+}
+
+
+/* Tablets */
+@media(min-width:700px){
+    .imageContainer img{
+        height: 200px;
+    }
+
+}
+
+/* Monitor Regular */
+@media(min-width:992px){
+
+
+}

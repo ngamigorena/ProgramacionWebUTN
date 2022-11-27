@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-image: url(../img/azul\ con\ irradiacion.jpg);
+    background-size: cover;
+}
+.FormatNav {
+    background-color: rgb(34, 33, 33);
+    width: 800px;
+    margin: auto;
+    margin-top: 35px; 
+    padding: 10px 20px;
+}
+
+.MenuHorizontal {
+    font-size: 0px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.MenuHorizontal li {
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    width: 25%;
+}
+
+.MenuHorizontal li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.MenuVertical {
+    position: absolute;
+    display: none;
+}
+
+.MenuVertical li {
+    display: block;
+}
+
+.MenuHorizontal li:hover .MenuVertical {
+    display: block;
+}

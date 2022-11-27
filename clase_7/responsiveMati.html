@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleResponsiveMati.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>Menu Responsive</title>
+</head>
+<body>
+    <header class="titularDePag">
+        <div>
+            <h2>Pagina de Menu Responsive</h2>
+        </div>
+        <nav class="menuNavi">
+            <ul class="menuHorizontalNav">
+                <li class="listHorizontal"><a href="">Home</a> </li>
+                <li class="listHorizontal"><a href="">Register</a></li>
+                <li class="listHorizontal"><a href="">Login</a></li>
+                <li class="listHorizontal"><a href="">Contact</a>
+                    <ul class="menuVertical">
+                        <li><a href="">Email</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">WhatsApp</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="" class="formRegi">
+            <div>
+                <h2>Regístrate</h2>
+            </div>
+            <div>
+                <input type="text" name="nombre" id="nameForm" placeholder="Nombre">
+            </div>
+            <div>
+                <input type="text" name="apellido" id="surnameForm" placeholder="Apellido">
+            </div>
+            <div>
+                <input type="email" name="email" id="emailForm" placeholder="Email">
+            </div>
+            <div>
+                <input type="password" name="contraseña" id="password" placeholder="Passwrod">
+            </div>
+            <div class="buttonSubmit">
+                <input type="submit" name="enviar" id="submit" value="Regístrate">
+            </div>
+            <div class="miembroYa">
+                <p>¿Ya eres miembro? <a href="#">Ingresa sesión</a></p>
+            </div>
+        </form>
+    </section>
+    <footer class="pie">
+        <p>© NazPage. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

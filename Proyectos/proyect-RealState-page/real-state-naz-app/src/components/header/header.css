@@ -1,0 +1,76 @@
+.bigNameFront{
+    height: 70vh;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.bigNameFront h1{
+    padding-top: 3.5rem;
+    font-weight: 700;
+    color: #f1f1f1;
+}
+
+.bigNameFront h4{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #f1f1f1;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.realStateName{
+    width: 100%;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.5rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Pequeños dispositivos */
+@media(min-width:320px) {
+
+}
+
+/* Celular */
+@media(min-width:480px) {
+    .bigNameFront h1{
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    
+    .bigNameFront h4{
+        font-size: 1.2em;
+    }
+
+}
+
+@media (min-width:600px){
+    .bigNameFront{
+        padding-top: 3rem;
+    }
+}
+
+/* Tablets */
+@media(min-width:768px){
+    .realStateName {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* Monitor Regular */
+@media(min-width:992px){
+
+    
+    .bigNameFront h1{
+        font-size: 3.5em;
+        font-weight: 700;
+        padding-top: 8rem;
+    }
+    
+    .bigNameFront h4{
+        font-size: 1.7rem;
+    }
+    
+}

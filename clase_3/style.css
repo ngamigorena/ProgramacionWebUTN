@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.formatoHeader{
+    background-image: url(/img/yellow_grunge_style_halftone_pattern_background.jpg);
+    background-color: rgb(245, 181, 20);
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.formatoNavegador {
+    text-align: center;
+    list-style: none;    
+}
+
+.formatoNavegador li{
+    display: inline-block;
+}
+
+.formatoNavegador a{
+    color: rgb(104, 10, 10);
+    font-weight: bolder;
+    text-decoration: none;
+    padding-left: 6rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.encabezado{
+    background-image: url(/img/azul\ con\ irradiacion.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    font-size: 2rem;
+    padding: 2rem;
+    color: aliceblue;
+}
+
+.fondo_verde{
+    background-color: darkgreen;
+    padding: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pie {
+    background-image: url(/img/green_comics_halftone_background.jpg);
+    background-color: rgb(24, 116, 2);
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;    
+    justify-content: left;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacstyle.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <form action="">
+        <fieldset><!-- remarcador -->
+            <legend>Completa el formulario </legend><!-- leyenda de que se trata el formulario -->
+        <!-- Opciones de datos de ingreso -->
+        <label for="nombre">Usuario</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su usuario">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <label for="fechaNacimiento"> Fecha de Nacimiento</label>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Ingrese Fecha de Nacimiento">
+        <!-- Botones -->
+        <input type="submit" value="Enviar Formulario" class="botonEnviarFormulario">
+        <input type="reset" name="reset" id="reset" value="Limpiar Formulario">
+        <input type="button" name="button" id="button" value="Sin Acciones">
+        <!-- Menu desplegable -->
+        <label for="opciones">Equipo de Fútbol</label>
+        <select name="Opciones" id="opciones">
+            <option value="Boca">Boca</option>
+            <option value="River">River</option>
+            <option value="En la otra vida">En la otra vida</option>
+        </select>
+        <!-- Comentario -->
+        <label for="mensaje">Escribi tu mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="20" rows="5" minlength="2" maxlength="20"></textarea>
+        <!-- Botones de Radio -->
+        <label for="pais">Argentina</label>
+        <input type="radio" name="pais" id="pais" value="Argentina">
+        <label for="pais">Brasil</label>
+        <input type="radio" name="pais" id="pais" value="Brasil">
+        <label for="pais">Italia</label>
+        <input type="radio" name="pais" id="pais" value="Italia">
+        <!-- Casillas de Chequeo -->
+        <div>Acepta los términos y condiciones</div>
+        <input type="checkbox" name="acepta" id="acepta" value="1">
+        </fieldset>
+    </form>
+    <a href="../clase_4/blackpanther.html"> Pagina de blackpanther</a>
+    <a href="../clase_4/eternals.html"> Eternals</a>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.contenedor{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+
+}
+
+.carta{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.imgCard{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.formularioProductos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.formularioProductos label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.formularioProductos input{
+    width: 60%;
+}

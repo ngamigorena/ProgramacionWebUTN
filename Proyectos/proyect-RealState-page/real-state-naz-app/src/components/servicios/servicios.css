@@ -1,0 +1,47 @@
+.tittleH{
+    color: rgb(19, 49, 141);
+    text-shadow: 1px 1px #000;
+    font-size: 1.5em;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+p{
+    text-align: left;
+    margin: 1rem;
+}
+
+.tittleInP{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.serviceContainer{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceContainerText{
+    width: 90%;
+}
+
+.intermediateTittle{
+    margin-top: 2rem;
+}
+
+.tittleH{
+    margin: 2rem;
+}
+
+.pContainer{
+    padding: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 5px;
+    width: 100%;
+}

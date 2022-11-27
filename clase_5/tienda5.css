@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.maquetado {
+    display: grid;
+    grid-template-areas:
+    'encabezado encabezado encabezado encabezado'
+    'navi navi navi navi'
+    'seccion1 seccion1 seccion1 costadito'
+    'seccion2 seccion2 seccion2 costadito'
+    'seccion34 seccion34 seccion34 costadito'
+    'pieDePagina pieDePagina pieDePagina pieDePagina'
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 70px 200px 600px 300px 75px;
+}
+
+.encabezado {
+    background-color: blueviolet;
+    grid-area: encabezado;
+}
+
+.navi {
+    background-color: darkturquoise;
+    grid-area: navi;
+}
+
+/* .contenedorSectores{
+    
+} */
+
+.seccion1spot{
+    background-color: darkslategray;
+    grid-area: seccion1;
+}
+
+.seccion2cuerpo {
+    background-color: darkred;
+    grid-area: seccion2;
+}
+
+.seccion3minimo {
+    background-color: darkolivegreen;
+    grid-area: seccion34;
+}
+
+.costadito {
+    background-color: darkgoldenrod;
+    grid-area: costadito;
+}
+
+.pieDePagina {
+    background-color: darkgreen;
+    grid-area: pieDePagina;
+}

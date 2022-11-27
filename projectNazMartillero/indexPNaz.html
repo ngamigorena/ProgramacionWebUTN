@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Naz - Martillero </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stylePN.css">
+</head>
+<body>
+    <!-- Header = menu hamburguesa -> iconos de contacto con el menu -> menu de navegación
+    Menu de navegación + barra de búsqueda -->
+    <header class="hero">
+        <nav class="navBar">
+            <div class="logoBrand">
+                <h1>Naz Real State</h1>
+            </div>
+            <div class="imgContact">
+                <img src="./images/whatsapp.svg" alt="Logo whatsapp">
+                <img src="./images/logoInstagram.svg" alt="Logo Instagram">
+                <img src="./images/logoFacebook.svg" alt="Logo logoFacebook">
+                <img src="./images/email.svg" alt="Logo Email">
+            <!-- La idea es hacer un menu desplegable en pequeños dispositivos y despues que quede solamente el menu a partir de tablets -->
+                <!-- Menu Hamburguesa! -->
+            </div>
+            <div class="menuDes">
+                <div class="imgBars">
+                    <img src="./images/menu.svg" alt="Menu Bars" class="ham">
+                </div>
+                <div class="dropdownContent">
+                    <ul class="menuHorizontalDes">
+                        <li><a href="">Venta</a></li>
+                        <li><a href="">Alquiler</a></li>
+                        <li><a href="">Tasación</a></li>
+                        <li><a href="">Buscador de Propiedades</a></li>
+                        <li><a href="">Institucional</a></li>
+                        <li><a href="">Servicios</a>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Oculto porque es el menu que viene en pantallas mas grandes -->
+            <div class="menuNav">
+                <ul class="menuHorizontal">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Buscador de Propiedades</a></li>
+                    <li><a href="">Institucional</a></li>
+                    <li><a href="">Servicios</a>
+                        <ul class="menuVertical">
+                            <li><a href="">Tasación</a></li>
+                            <li><a href="">Escrituración</a></li>
+                            <li><a href="">Administración</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contáctanos</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <div class="bigNameFront">
+            <h1 class="realStateName">AMIGORENA PROPIEDADES</h1>
+            <h4 class="fraseFront">Encontrá lo que buscás.</h4>
+        </div>
+    </header>
+    <!-- Buscador de Propiedades -->    
+<!--     <h1 class="searchProp">Buscador de Propiedades</h1> -->
+    <form action="" class="searchMenuBar">    
+        <h1 class="searchTittle">Buscador de Propiedades</h1>
+        <div class="opMenu">
+            <select name="operacion" id="operacion" >
+                <option value="Operacion">Operación</option>
+                <option value="Venta">Venta</option>
+                <option value="Alquiler">Alquiler</option>
+                <option value="Alquiler Temporario">Alquiler Temporario</option>
+            </select>
+        </div>
+        <div class="opTipoProp">
+            <select name="tipoDePropiedad" id="tipoDePropiedad">
+                <option value="Tipo de Propiedad">Tipo de Propiedad</option>
+                <option value="Departamento">Departamento</option>
+                <option value="Casa">Casa</option>
+                <option value="PH">PH</option>
+                <option value="Local">Local</option>
+                <option value="Cochera">Cochera</option>
+            </select>
+        </div>
+        <div class="opAmb">
+            <select name="ambientes" id="ambientes">
+                <option value="Ambientes">Ambientes</option>
+                <option value="1 Ambiente">1 Ambiente</option>
+                <option value="2 Ambientes">2 Ambientes</option>
+                <option value="3 Ambientes">3 Ambientes</option>
+                <option value="4 Ambientes">4 Ambientes</option>
+                <option value="Más">Más</option>
+            </select>
+        </div>
+        <div class="opSearch">
+            <input type="search" name="search" id="searchPropBar" placeholder="Codigo de propiedad">
+        </div>
+        <div class="opBut">
+            <button type="submit" id="searchBtN">Buscar</button>
+        </div>
+    </form>
+    <!-- Espacio para filtrado de imagens del array -->
+    <section class="imageFiltered" id="imageFiltered">
+
+    </section>
+    
+
+    <!-- Seccion de Propiedades Destacadas -->
+    <div class="titPropDestacadas">
+        <h1>Propiedades Destacadas</h1>
+    </div>
+    <!-- Intento de carga de elementos desde JS -->
+    <main id="contenedorDeDptosDestacado"></main>
+    
+    <section class="sliderDeProps">
+        <h1>Slider de Propiedades</h1>
+        <!-- Arrow Left -->
+        <div class="sliderArrowLeft">
+            <img src="./images/caret-left.svg" alt="arrowLeft" id="butBack">
+        </div>
+        <!-- Imagenes Slider -->
+        <div class="sliderDpto">
+            <img src="" alt="">
+        </div>
+        <!-- Arrow Right -->
+        <div class="sliderArrowRight">
+            <img src="./images/caret-right.svg" alt="arrowRight" id="butForward">
+        </div>
+    </section>
+    
+    
+    <!-- Oportunidades -->
+    <section class="oportunitiesProperties">
+        <h1>Oportunidades</h1>
+    </section>
+
+<!-- Footer -->
+    <footer class="footContainer">
+        <!-- logo // medios de contacto -->
+    <div class="footSecContainer">
+        <div class="mainFootSec">
+            <div class="logoSpace">
+
+            </div>
+            <div class="listOptionsFoot">
+                <h3 class="tittleListFoot">Links</h3>
+                <ul class="listElementFoot">
+                    <li><a href=""></a><img src="./images/play-icon.svg" alt="icon"> Venta</li>
+                    <li><a href=""></a><img src="./images/play-icon.svg" alt="icon"> Alquiler</li>
+                    <li><a href=""></a><img src="./images/play-icon.svg" alt="icon"> Temporario</li>
+                    <li><a href=""></a><img src="./images/play-icon.svg" alt="icon"> Tasación</li>
+                </ul>
+            </div>
+            <div class="listContactFoot">
+                <h3 class="tittleListFoot">Contáctenos</h3>
+                <ul class="listElementFoot">
+                    <li><img src="./images/locationWhite.svg" alt="icon location"  id="iconLocationFoot">
+                        <p>Tucumán 2280 - Mar del Plata</p>
+                    </li>
+                    <li>
+                        <img src="./images/email.svg" alt="Logo Email">
+                        <a href=""><p>ngamigorena@gmail.com</p></a>
+                    </li>
+                    <li><img src="./images/whatsapp.svg" alt="Logo whatsapp">
+                        <p>+5492234243368</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <div class="nameCreator">
+        <h5>Desarrolado by Naz <!-- generar logo --></h5>
+    </div>
+    
+    </footer>
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/mainPN.js"></script>
+</body>
+</html>

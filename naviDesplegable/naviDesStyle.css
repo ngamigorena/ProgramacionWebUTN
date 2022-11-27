@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.menuHorizontal{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.menuHorizontal li{
+    display: block;
+}
+
+.menuVertical{
+    display: none;
+    position: absolute;
+}
+
+.menuHorizontal li:hover .menuVertical{
+    display: block;
+}

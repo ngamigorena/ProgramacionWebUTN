@@ -1,0 +1,132 @@
+.navbarN{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+/*     -webkit-box-shadow:0px 0px 50px 15px #13318d inset,0px 0px 50px 5px #13318d ;
+    -moz-box-shadow:0px 0px 50px 15px #13318d inset,0px 0px 50px 5px #13318d ;
+    box-shadow:0px 0px 50px 15px #13318d inset,0px 0px 50px 5px #13318d ; */
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    border: 3px inset rgba(12, 42, 133, 0.164);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.logoNavBar{
+    width: 100%;
+    margin: 0;
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 1px 1px black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0,.3);
+    backdrop-filter: blur(12px);
+}
+
+.logoNavBar h3{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.navLinksN{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(0, 0, 0,.3);
+    backdrop-filter: blur(12px);
+    display: none;
+}
+
+.navLinksN a{
+    text-align: center;
+}
+
+
+.home, .salePropNavBar, .searchPropNavBar, .institucionalNavBar, .serviceNavBar, .contactNavBar{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px black;
+    font-size: .7em;
+    cursor: pointer;
+}
+
+.mobileMenuIcon{
+    display: none;
+}
+
+/* Pequeños dispositivos */
+@media(min-width:320px) {
+
+
+
+
+}
+
+
+/* Celular */
+@media(min-width:480px) {
+.logoNavBar{
+    padding-top: 1rem;
+    font-size: 2em;
+}
+
+.navLinksN{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.home, .salePropNavBar, .searchPropNavBar, .institucionalNavBar, .serviceNavBar, .contactNavBar{
+    font-size: 1em;
+}
+
+}
+/* Tablets */
+@media(min-width:768px){
+.logoNavBar{
+    font-size: 2em;
+}
+
+
+.home, .salePropNavBar, .searchPropNavBar, .institucionalNavBar, .serviceNavBar, .contactNavBar{
+    font-size: 1em;
+}
+
+
+}
+/* Monitor Regular */
+@media(min-width:992px){
+
+.navbarN{
+    flex-direction: row;
+}
+
+.logoNavBar{
+    width: 40vw;
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+}
+
+.navLinksN{
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+}
+

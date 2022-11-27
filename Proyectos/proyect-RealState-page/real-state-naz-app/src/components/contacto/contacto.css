@@ -1,0 +1,137 @@
+.tittleContainerContact{
+    margin: 2rem 0;
+}
+
+.tittleForm{
+    text-align: center;
+}
+
+.pContainerContact{
+    margin-top: 1rem;
+}
+
+.pContainerContact p{
+    text-align: center;
+}
+
+.formContainer{
+    margin: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    width: 90%;
+}
+
+.eachLineForm, .eachLineForm input, .eachLineFormBtn{
+    width: 100%;
+}
+
+.eachLineForm input, .eachLineMessage input{
+    box-shadow: 0px 0px 3px 0px;
+    border: none;
+}
+
+.eachLineMessage, .eachLineMessage input{
+    width: 100%;
+    height: 100px;
+}
+
+.welcomeForm{
+    font-weight: bolder;
+}
+
+.btnForm{
+    background-color: rgba(19, 49, 141, 0.95);
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: .5rem;
+    border: 1px solid rgb(19, 49, 141);
+    border-radius: 5px;
+}
+
+.btnForm:hover{
+    background-color: rgba(21, 69, 212, 0.95);
+}
+
+.eachLineFormBtn input{
+    width: 100%;
+}
+
+.infoContactContact{
+    display: none;
+    margin: 0;
+    padding: 2rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 5px;
+    
+}
+
+@media(min-width:480px) {
+    .eachLineFormBtn{
+        text-align: center;
+    }
+
+    .eachLineFormBtn input{
+        width: 50%;
+    }
+    
+    .welcomeForm{
+        font-size: 1.4em;
+    }
+}
+
+/* Tablets */
+@media(min-width:700px){
+    .formContainer{
+        width: 50%;
+    }
+
+    .infoContactContact{
+        display: block;
+    }
+
+    .formInfoContainer{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .tittleListFootContactForm{
+        font-weight: bolder;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .listElementFootContactForm li, .listElementFootContactForm a{
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+    }
+
+    .listElementFootContactForm{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .listElementFootContactForm li{
+        display: flex;
+    }
+
+    .listElementFootContactForm li p{
+        margin-top: 1rem;
+    }
+
+}
+
+/* Monitor Regular */
+@media(min-width:992px){
+
+}

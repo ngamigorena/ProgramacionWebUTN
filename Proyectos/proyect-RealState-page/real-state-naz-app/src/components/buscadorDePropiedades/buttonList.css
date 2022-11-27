@@ -1,0 +1,53 @@
+.btnItemList{
+    padding: .5rem;  
+    background-color: rgba(19, 49, 141, 0.95);
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: .4rem;
+    border: 1px solid rgba(19, 49, 141, 0.95);
+    border-radius: 5px; 
+}
+
+
+.btnItemList:hover{
+    background-color: rgba(21, 69, 212, 0.95);
+}
+
+.properties{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Pequeños dispositivos */
+@media(min-width:320px) {
+
+}
+
+/* Celular */
+@media(min-width:400px) {
+    .properties{
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+/* Tablets - Mia Intermedia */
+@media(min-width:600px){
+
+}
+
+
+/* Tablets */
+@media(min-width:700px){
+
+
+}
+
+/* Monitor Regular */
+@media(min-width:992px){
+
+
+}

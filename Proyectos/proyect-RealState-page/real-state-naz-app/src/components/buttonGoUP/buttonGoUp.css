@@ -1,0 +1,15 @@
+.btnGoUpContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.3rem;
+}
+
+.btnGoUp{
+    color: rgba(19, 49, 141, 0.95);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.btnGoUp:hover{
+    transform: scale(1.1);
+}

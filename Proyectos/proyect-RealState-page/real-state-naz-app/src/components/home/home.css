@@ -1,0 +1,25 @@
+.videoContainer{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px;
+    transition: 0.3s;
+    animation: ease-in;
+    border-radius: 5px;
+}
+
+
+
+.containerGenVideo{
+    width: 100%;
+    height: 350px;
+    padding: 1rem;
+
+}
+
+.tittleVideoSection{
+    margin: 2rem;
+    text-align: center;
+}
+

@@ -1,0 +1,51 @@
+.propDestacadas{
+    width: 100%;
+}
+
+.cardContenidoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: space-around;
+}
+
+.tittleSecPropDes{
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Pequeños dispositivos */
+@media(min-width:320px) {
+    .cardContenidoContainer{
+        align-items: center;
+    }
+}
+
+/* Celular */
+@media(min-width:450px) {
+    .cardContenidoContainer{
+        align-items: center;
+    }
+
+}
+
+/* Tablets - Mia Intermedia */
+@media(min-width:600px){
+    .cardContenidoContainer{
+        flex-direction: row;
+    }
+
+}
+
+/* Tablets */
+@media(min-width:768px){
+
+
+}
+
+/* Monitor Regular */
+@media(min-width:992px){
+
+
+}
