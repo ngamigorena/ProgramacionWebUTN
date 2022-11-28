@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+.tittlePropsSale{
+    margin-top: 4rem;
+}
+
 .tittlePropsSale h1{
     margin: 2rem;
     text-align: center;
