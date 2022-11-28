@@ -15,7 +15,7 @@ const PropList = ({propList}) => {
                         <h5 className="locationItemList">{prop.ubicacion}</h5>
                     </div>
                     <div>
-                        <h5 className="textItemList">Se encuentra en: {prop.condicion}</h5>
+                        <h5 className="textItemList">{prop.tipo} en {prop.condicion}</h5>
                         <h5 className="textItemList">Valor: ${prop.precio}</h5>
                     </div>
                     <div className='btnCardItemListContainer'>
