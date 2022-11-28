@@ -1,16 +1,13 @@
 .titteleHeroSection{
-    width: 100%;
-    text-align: center;
+    display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    width: 100%;
+    height: 80%;
     backdrop-filter: blur(1px);
 }
 
 .titteleHeroSection h1{
-    margin: -1rem;
-    padding: 0;
-    padding-top: 3.5rem;
     font-weight: 700;
     color: #f1f1f1;
     text-shadow: 1px 1px 1px black;
@@ -30,17 +27,9 @@
     }
 }
 
-/* Tablets */
-@media(min-width:800px){
-    .titteleHeroSection h1{
-        margin: 2rem;
-    }
-}
-
-
 /* Monitor Regular */
 @media(min-width:992px){
     .titteleHeroSection h1{
-        margin: 3rem;
+        font-size: 3em;
     }
 }
