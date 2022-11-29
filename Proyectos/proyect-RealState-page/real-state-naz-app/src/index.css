@@ -23,7 +23,7 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  clip-path: polygon(50% 100%, 100% 55%, 100% 0, 0 0, 0 55%);
+  clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
 }
 
 .navbarN{
@@ -44,4 +44,10 @@ footer{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width: 700px){
+  .heroEachSectionContainer{
+    clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+  }
 }
